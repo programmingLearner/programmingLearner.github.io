@@ -1,0 +1,965 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Blog of Jerry Xu</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Hello World! ">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+        body {
+            padding: 0px;
+        }
+        
+        .cv1 {
+            padding-top: 30px;
+            background-color: black;
+            color: white;
+        }
+        
+        .cv1 img {
+            float: right;
+            width: 100%;
+        }
+        
+        .cv32 img {
+            width: 100%;
+        }
+        
+        .cv11 img {
+            float: right;
+            width: 15%;
+        }
+        
+        .cv30 {
+            padding: 20px;
+        }
+        
+        .cv1 h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+        
+        .cv1 h2 {
+            font-size: 50px;
+            margin: 20px;
+        }
+        
+        .cv1>div>div>div {
+            padding-left: 30px;
+        }
+        
+        .cv2 {
+            background-color: #2E5D9C;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+        }
+        
+        .cv2 button {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        
+        .cv3 {
+            padding: 10px;
+            padding-left: 30px;
+        }
+        
+        .cv31 {
+            text-align: right;
+            padding-left: 0;
+        }
+        
+        .cv32 {
+            border-left: thick solid #2E5D9C;
+        }
+        
+        .cv33 {
+            float: right;
+        }
+        
+        .complex {
+            display: none;
+        }
+        
+        .simple {
+            display: block;
+        }
+        
+        .reference {
+            padding: 20px;
+            font-size: 8px;
+            color: grey;
+        }
+    </style>
+    <script type="text/javascript">
+        function hide() {
+            $(".simple").css({
+                "display": "block"
+            });
+            $(".complex").css({
+                "display": "none"
+            });
+        }
+
+        function show() {
+            $(".simple").css({
+                "display": "none"
+            });
+            $(".complex").css({
+                "display": "block"
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="cv1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>Yifei Xu</h2>
+                    <p>Date of Birth : Sept. 22nd, 1996</p>
+                    <p>E-mail : fei960922@ucla.edu</p>
+                    <p>Mailing Address: 520 Portola Plaza, 8125 Math Sciences Bldg., Los Angeles, CA, 90095</p>
+                    <p>Cell Phone : +1 (310) 571-8346</p>
+                    <p>Personal Website : http://fei22.cn</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="image/head_x.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cv2">
+        <div class="container">
+            Research Interests
+        </div>
+    </div>
+    <div class="cv3">
+        <div class="container">
+            <b>Computer Vision, Generative Learning, Reinforcement Learning</b>
+        </div>
+    </div>
+    <div class="cv2">
+        <div class="container">
+            Education
+            <div class="cv33">
+                <button class="btn btn-primary complex" type="button" onclick="hide()">Hide</button>
+                <button class="btn btn-primary simple" type="button" onclick="show()">show more</button>
+            </div>
+        </div>
+    </div>
+    <div class="cv3 container simple">
+        <div class="row">
+            <div class="col-sm-2 cv31">
+                <i>2017.09 - Present</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <ul class="list-unstyled">
+                    <li><b>University of California, Los Angeles, United State</b></li>
+                    <li>Ph.D. in Statistics</li>
+                    <li>Working at the Center for Vision, Cognition, Learning, and Autonomy (VCLA)</li>
+                    <li>Advisor: Prof. <b>Ying Nian Wu</b></li>
+                    <li>GPA: <b>3.98 </b> / 4.0 (Until 2018 Fall)</li>
+                </ul>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2013.09 - 2017.06</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <ul class="list-unstyled">
+                    <li><b>Shanghai Jiao Tong University, China</b></li>
+                    <li>B. S. Eng. in Computer Science</li>
+                    <li>ACM Honor Class, Zhiyuan College (a pilot CS class in China)</li>
+                    <li>Zhiyuan College, Shanghai Jiao Tong University, China</li>
+                    <li>GPA: <b>3.83</b> / 4.0 (Major GPA)</li>
+                </ul>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.07 - 2016.09</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <ul class="list-unstyled">
+                    <li><b>University of California, Los Angeles, United State</b></li>
+                    <li>Cross-disciplinary Scholars in Science and Technology Program</li>
+                    <li>Department of Statistics</li>
+                    <li>GPA: <b>4.0</b> / 4.0</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cv3 container complex">
+        <div class="row">
+            <div class="col-sm-1 cv31">
+                <i>2017.09 - Present</i>
+            </div>
+            <div class="col-sm-11 cv32">
+                <ul class="list-unstyled">
+                    <li><b>University of California, Los Angeles, United State</b></li>
+                    <li>Ph.D. in Statistics</li>
+                    <li>Working at the Center for Vision, Cognition, Learning, and Autonomy (VCLA)</li>
+                    <li>Department of Statistics</li>
+                    <li>Advisor: Prof. <b>Ying Nian Wu</b></li>
+                </ul>
+                <div class="row col-sm-12 cv11">
+                    <h4><a href="http://vcla.stat.ucla.edu">The Center for Vision, Cognition, Learning, and Autonomy (VCLA)</a></h4>
+                    <img src="image/vcla.png" alt="">
+                    <p>The Center for Vision, Cognition, Learning, and Autonomy (VCLA) is affiliated with the Departments of Statistics and Computer Science at UCLA. We start from Computer Vision and expand to other disciplines. Our objective is to pursue a unified framework for representation, learning, inference and reasoning, and to build intelligent computer systems for real world applications. </p>
+                </div>
+                <div class="row col-sm-12 cv11">
+                    <h4><a href="http://www.stat.ucla.edu/~ywu/">Professor Ying Nian Wu</a></h4>
+                    <img src="http://vcla.stat.ucla.edu/images/people/ynwu.jpg" alt="">
+                    <p>Professor Wu is a professor of Statistics in University of California, Los Angeles. He is interested in statistical modeling, computing and learning. In particular, he is interested in generative models and unsupervised learning.</p>
+                </div>
+                <li>GPA: <b>3.97 </b> / 4.0 (First Year)</li>
+                <h5>Major Course grade A+ / A :</h5>
+                <ul class="list-inline">
+                    <li>Applied Probability</li>
+                    <li>Statistical Programming</li>
+                    <li>Computer Vision and Pattern Recognition</li>
+                    <li>Modeling and Learning</li>
+                    <li>Matrix Algebra and Optimization</li>
+                    <li>Modeling and Learning in Vision</li>
+                    <li>Advance Modeling and Inference</li>
+                    <li>Non-parametric Model</li>
+                </ul>
+            </div>
+            <div class="col-sm-1 cv31">
+                <i>2013.09 - 2017.06</i>
+            </div>
+            <div class="col-sm-11 cv32">
+                <p><b>Shanghai Jiao Tong University</b></p>
+                <p>B. S. Eng. in Computer Science, Zhiyuan College</p>
+                <div class="row col-sm-12 cv11">
+                    <h4><a href="http://acm.sjtu.edu.cn">ACM Honored Class</a></h4>
+                    <img src="image/acm.png" alt="">
+                    <p>ACM Honored Class is a pilot computer science class in China. </p>
+                    <p>Over the past 10 years, ACM students have received hundreds of honors and awards. ACM studnets won the ACM International Student Programming Contest World Championship for three times in 2002, 2005 and 2010. </p>
+                    <p>ACM students has published more than 40 academic papers as the first author in the NIPS, WWW, SIGIR, SIGMOD, SIGKDD, ICML, AAAI and other important international conferences and journals.</p>
+                </div>
+                <div class="row col-sm-12 cv11">
+                    <h4><a href="http://zhiyuan.sjtu.edu.cn">Zhiyuan College</a></h4>
+                    <img src="image/zhiyuan.png" alt="">
+                    <p>Zhiyuan College, within Shanghai Jiao Tong University, is an institude that provides an Elite-education for our students. It aims to train them to become future leaders in science and in technology. </p>
+                    <p>In order to be admitted to Zhiyuan College, a student must be on the top fo more than 17,000 undergraduate students within SJTU. Currently, 461 students are enrolled in Zhiyuan College.</p>
+                    <p>By September 2016, 359 students have graduated from Zhiyuan College, 327 (91%) to pursue further studies, 273 (76%) admitted by world top 100 University listed in QS World University Ranking 2016, and 250 (70%) to pursue Ph.D. degrees.</p>
+                </div>
+                <div class="row col-sm-12 cv11">
+                    <h4><a href="http://www.sjtu.edu.cn">Shanghai Jiao Tong University</a></h4>
+                    <img src="image/sjtu.png" alt="">
+                    <p>Shanghai Jiao Tong University (SJTU), as one of the higher education institutions which enjoy a long history and a world-renowned reputation in China, is a key university directly under the administration of the Ministry of Education
+                        (MOE) of the People's Republic of China and co-constructed by MOE and Shanghai Municipal Government. SJTU has become a comprehensive, research-oriented, and internationalized top university in China.
+                    </p>
+                </div>
+                <p>GPA: <b>3.83</b> / 4.0 (Major GPA) (A+ = 4.3)</p>
+                <h5>Major Course grade A+ / A :</h5>
+                <ul class="list-inline">
+                    <li>Programming</li>
+                    <li>Linear Algebra</li>
+                    <li>Mathematical Analysis</li>
+                    <li>University Physics</li>
+                    <li>Science and Technology Innovation</li>
+                    <li>Computer Architecture</li>
+                    <li>Computer System</li>
+                    <li>Course Design on Computer System</li>
+                    <li>Cmputing Complexity</li>
+                    <li>Machine Learning (Include Statistics)</li>
+                    <li>Natural Language Processing</li>
+                    <li>Database Systems</li>
+                    <li>Lab Practice</li>
+                </ul>
+            </div>
+            <div class="col-sm-1 cv31">
+                <i>2016.07 - 2016.09</i>
+            </div>
+            <div class="col-sm-11 cv32">
+                <ul class="list-unstyled">
+                    <li><b>University of California, Los Angeles, United State</b></li>
+                    <li>Department of Statistics</li>
+                </ul>
+                <div class="row col-sm-12 cv11">
+                    <h4><a href="http://acm.sjtu.edu.cn">Cross-disciplinary Scholars in Science and Technology Program</a></h4>
+                    <img src="image/csst.png" alt="">
+                    <p>The CSST office administers the CSST Summer Program which brings outstanding third year undergraduate students, interested in PhD studies, nominated by top-tier universities in the People?s Republic of China (PRC) and Japan, to conduct
+                        10 week intensive research training with UCLA faculty mentors. This 10-week program offers emerging scholars premier research training in a cutting edge scientific environment that fosters cross-disciplinary collaborations.</p>
+                </div>
+                <p>GPA: <b>4.0</b> / 4.0</p>
+                <h5>Course grade A+ / A :</h5>
+                <ul class="list-inline">
+                    <li>CSST Project</li>
+                    <li>Directed Research</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cv2">
+        <div class="container">
+            Research Experience
+            <div class="cv33">
+                <button class="btn btn-primary complex" type="button" onclick="hide()">Hide</button>
+                <button class="btn btn-primary simple" type="button" onclick="show()">show more</button>
+            </div>
+        </div>
+    </div>
+    <div class="cv3 container simple">
+        <div class="row">
+            <div class="col-sm-8">
+                <h4>Center for Vision, Cognition, Learning and Autonomy</h4>
+            </div>
+            <div class="col-sm-4 cv31">
+                <h4>University of California, LA</h4>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.07 - Present</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <div class="cv33"> Advisor: Ying Nian Wu</div>
+                <ul class="list-unstyled">
+                    <p>
+                        <li><b>Learning Generative ConvNet with Continuous Latent Factors </b></li>
+                        <li><i>Model: a non-linear generalization of factor analysis where the mapping is parametrized by CNN</i></li>
+                        <li><i>Optimized image synthesis training on large-scale images by batch normalization</i></li>
+                        <li><i>Used new Back-Propagation inferenced by gradient descent / Langevin dynamics</i></li>
+                    </p>
+                    <p>
+                        <li><b>Generative Hierarchical Structure Learning of Sparse FRAME Models</b></li>
+                        <li><i>Model: Sparse FRAME, a multi-layer probability distribution model captured the part deformation</i></li>
+                        <li><i>Designed experiments for Sparse FRAME model on detection and clustering</i></li>
+                        <li><i>Compared Sparse FRAME model with DPM, And-or Graph on point, part, object level detection</i></li>
+                    </p>
+                </ul>
+
+            </div>
+            <div class="col-sm-6">
+                <h4>Planning Group --- Research Intern</h4>
+            </div>
+            <div class="col-sm-6 cv31">
+                <h4>Isee Inc.</h4>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2018.07 - 2018.09</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <div class="cv33"> Advisor: Chris Baker</div>
+                <p>
+                    <ul class="list-unstyled">
+                        <li><b>Continuous Inverse Optimal Control by Energy-based Model</b></li>
+                        <li><i>Model: A sample-based inverse reinforcement learning model driven by Energy-based Model and Langevin Dynamic</i></li>
+                        <li><i>Energy function is formed by neural network enhanced human-crafted cost function</i></li>
+                        <li><i>Langevin Dynamic is used to generate trajectories by sampling in energy-based distribution</i></li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <h4>Computer and Machine Intelligence Lab</h4>
+            </div>
+            <div class="col-sm-6 cv31">
+                <h4>Shanghai Jiao Tong University</h4>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2015.07 - 2017.06</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <div class="cv33"> Advisor: Liqing Zhang</div>
+                <ul class="list-unstyled">
+                    <p>
+                        <li><b>Large-scale image retrieval competition</b></li>
+                        <li><i>Model: A model with saliency detection, image classification and image retrieval</i></li>
+                        <li><i>Implemented Saliency Detection combining Dense and Sparse Reconstruction by Bayesian Integration</i></li>
+                        <li><i>Classified large-scale images by SVM and Convolution Neural Network</i></li>
+                    </p>
+                    <p>
+                        <li><b>Interactive Image Search for Clothing Recommendation</b></li>
+                        <li><i>Model: Hybrid Topics Model, An LDA based model integrates both visual and text information </i></li>
+                        <li><i>Used multi-trained Fast-RCNN to localize regions</i></li>
+                        <li><i>Extracted 3 types of visual descriptors: HOG, LBP, Color</i></li>
+                        <li><i>Implemented Hybrid Topics Model and introduced a demand-adaptive retrieval strategy</i></li>
+                    </p>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <h4>Visual Computing Lab --- Research Intern</h4>
+            </div>
+            <div class="col-sm-4 cv31">
+                <h4>Microsoft Research in Asia</h4>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.09 - 2017.02</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <div class="cv33"> Advisor: Fang Wen</div>
+                <p>
+                <ul class="list-unstyled">
+                    <li><b>Joint Face Detection and Alignment via Cascaded Compositional Learning</b></li>
+                    <li><i>Model: Sparse FRAME, a multi-layer probability distribution model captured the part deformation</i></li>
+                    <li><i>Jointed cascade face detection and alignment by advanced boosting algorithm</i></li>
+                    <li><i>Considered multi-domain to overcome unconstrained face data</i></li>
+                    <li><i>Trained multi domain on same random forest with both detection and alignment in parallel</i></li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="cv3 container complex">
+        <div class="row">
+            <div class="col-sm-8">
+                <h4>Center for Vision, Cognition, Learning and Autonomy</h4>
+            </div>
+            <div class="col-sm-4 cv31">
+                <h4>University of California, LA</h4>
+            </div>
+            <div class="col-sm-1 cv31">
+                <i>2016.07 - 2016.09</i>
+            </div>
+            <div class="col-sm-11 cv32">
+                <div class="cv33"> Advisor: Ying Nian Wu</div>
+                <p>Research Intern</p>
+                <div class="row cv30">
+                    <div class="col-sm-6">
+                        <img src="image/cv13.JPG" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Learning Generative ConvNet with Continuous Latent Factors </h4>
+                        <ul>
+                            <li><i>Model: a non-linear generalization of factor analysis where the mapping is parametrized by CNN</i></li>
+                            <li><i>Optimized image synthesis training on large-scale images by batch normalization</i></li>
+                            <li><i>Used new Back-Propagation inferenced by gradient descent / Langevin dynamics</i></li>
+                        </ul>
+                        <p><b>Paper Abstract</b></p>
+                        <p>This paper proposes an alternating back-propagation algorithm for learning the generator network model. The model is a non-linear generalization of factor analysis. In this model, the mapping from the latent factors to the observed
+                            vector is parametrized by a convolutional neural network. The alternating back-propagation algorithm iterates between the following two steps: (1) Inferential back-propagation, which infers the latent factors by Langevin dynamics
+                            or gradient descent. (2) Learning back-propagation, which updates the parameters given the inferred latent factors by gradient descent. </p>
+                        <ul class="list-unstyled">
+                            <li>The project page : <a href="http://www.stat.ucla.edu/~ywu/ABP/main.html">Link</a></li>
+                            <li>The paper online : <a href="https://arxiv.org/pdf/1606.08571.pdf">Link</a><small> *My name is listed in the Acknowledgement</small></li>
+                            <li>The poster : <a href="document/poster_YifeiXu.pdf">Link</a></li>
+                            <li>The presentation : <a href="document/final_YifeiXu.pdf">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row cv30">
+                    <div class="col-sm-6">
+                        <img src="image/cv14.JPG" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Generative Hierarchical Structure Learning of Sparse FRAME Models</h4>
+                        <ul>
+                            <li><i>Model: Sparse FRAME, a multi-layer probability distribution model captured the part deformation</i></li>
+                            <li><i>Designed experiments for Sparse FRAME model on detection and clustering</i></li>
+                            <li><i>Compared Sparse FRAME model with DPM, And-or Graph on point, part, object level detection</i></li>
+                        </ul>
+                        <p><b>Paper Abstract</b></p>
+                        <p>This paper proposes a framework for generative learning of hierarchical structure of visual objects, based on training hierarchical random field models. The resulting model, which we call structured sparse FRAME model, is a straightforward
+                            variation on decomposing the original sparse FRAME model into multiple parts that are allowed to shift their locations, orientations and scales, so that the resulting model becomes a reconfigurable template.</p>
+                        <ul class="list-unstyled">
+                            <li>The project page : <a href="http://www.stat.ucla.edu/~jxie/hsFRAME.html">Link</a></li>
+                            <li>The paper online : <a href="http://www.stat.ucla.edu/~jxie/hsFRAME_file/doc/HS_FRAME.pdf">Link</a></li>
+                            <li>The poster : <a href="http://www.stat.ucla.edu/~jxie/hsFRAME_file/poster/cvpr_poster.pdf">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <h4>Planning Group</h4>
+            </div>
+            <div class="col-sm-4 cv31">
+                <h4>Isee Inc.</h4>
+            </div>
+            <div class="col-sm-1 cv31">
+                <i>2018.07 - 2018.09</i>
+            </div>
+            <div class="col-sm-11 cv32">
+                <div class="cv33"> Advisor: Chris Baker</div>
+                <p>Research Intern</p>
+                                <div class="row cv30">
+                    <div class="col-sm-6">
+                        <img src="image/cv16.JPG" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Continuous Inverse Optimal Control by Energy-based Model</h4>
+                        <ul>
+                            <li><i>Model: A sample-based inverse reinforcement learning model driven by Energy-based Model and Langevin
+                                Dynamic</i></li>
+                            <li><i>Energy function is formed by neural network enhanced human-crafted cost function</i></li>
+                            <li><i>Langevin Dynamic is used to generate trajectories by sampling in energy-based distribution</i></li>
+                        </ul>
+                        <p><b>Paper Abstract</b></p>
+                        <p>Autonomous driving is a challenging multiagent domain which requires optimizing complex, mixed cooperative-competitive interactions. Learning to predict contingent distributions over other vehicles' trajectories simplifies the problem, allowing approximate solutions by trajectory optimization with dynamic constraints. We take a model-based approach to prediction, in order to make use of structured prior knowledge of vehicle kinematics, and the assumption that other drivers plan trajectories to minimize an unknown cost function. We introduce a novel inverse optimal control (IOC) algorithm to learn other vehicles' cost functions in an energy-based generative model. Langevin Sampling, a Monte Carlo based sampling algorithm, is used to directly sample the control sequence. Our algorithm provides greater flexibility than standard IOC methods, and can learn higher-level, non-Markovian cost functions defined over entire trajectories. We extend weighted feature-based cost functions with neural networks to obtain NN-augmented cost functions, which combine the advantages of both model-based and model-free learning. Results show that model-based IOC can achieve state-of-the-art vehicle trajectory prediction accuracy, and naturally take scene information into account.
+</p>
+                        <ul class="list-unstyled">
+                            <li>The paper online : <a href="./document/CIOC_via_Langevin_V2.pdf">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Computer and Machine Intelligence Lab</h4>
+            </div>
+            <div class="col-sm-6 cv31">
+                <h4>Shanghai Jiao Tong University</h4>
+            </div>
+            <div class="col-sm-1 cv31">
+                <i>2015.07 - 2017.06</i>
+            </div>
+            <div class="col-sm-11 cv32">
+                <div class="cv33"> Advisor: Liqing Zhang</div>
+                <p>Research Assistant</p>
+                <div class="row cv30">
+                    <div class="col-sm-6">
+                        <img src="image/cv11.JPG" alt=""> *1
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Large-scale image retrieval competition</h4>
+                        <ul>
+                            <li><i>Model: A model with saliency detection, image classification and image retrieval</i></li>
+                            <li><i>Implemented Saliency Detection combining Dense and Sparse Reconstruction by Bayesian Integration</i></li>
+                            <li><i>Classified large-scale images by SVM and Convolution Neural Network</i></li>
+                        </ul>
+                        <p>This is a competition hold by Alibaba. The goal is to output the picture with the most similarity by the
+                            given picture. The database is a million web pictures. There are three part for our model. They are
+                            saliency detection, CNN
+                            classification and text matching. I am in charge of saliency detection and classification. Our team
+                            ranked in the top 16 in the competition(Over 2000 teams).</p>
+            
+                    </div>
+                </div>
+                <div class="row cv30">
+                    <div class="col-sm-6">
+                        <img src="image/cv12.JPG" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Interactive Image Search for Clothing Recommendation</h4>
+                        <ul>
+                            <li><i>Model: Hybrid Topics Model, An LDA based model integrates both visual and text information </i></li>
+                            <li><i>Used multi-trained Fast-RCNN to localize regions</i></li>
+                            <li><i>Extracted 3 types of visual descriptors: HOG, LBP, Color</i></li>
+                            <li><i>Implemented Hybrid Topics Model and introduced a demand-adaptive retrieval strategy</i></li>
+                        </ul>
+                        <p><b>Paper Abstract</b></p>
+                        <p>This paper proposes a novel approach to meet users' multi-dimensional requirements in clothing image
+                            retrieval.We propose the Hybrid Topic (HT) model to learn the intricate semantic representation of the
+                            descriptors above. The
+                            model provides an effective multi-dimensional representation of clothes and is able to perform
+                            automatic image annotation by probabilistic reasoning from image search. Furthermore, we develop a
+                            demand-adaptive retrieval strategy
+                            which refines users' specific requirements and removes users' unwanted features. Our experiments show
+                            that the HT method significantly outperforms the deep neural network methods.</p>
+                        <ul class="list-unstyled">
+                            <li>The system page : <a href="http://202.120.38.141/magic-wardrobe/index_v2.html">Magic Wardrobe</a></li>
+                            <li>The paper online : <a href="document/clothing_retrieval_demo.pdf">Link</a></li>
+                            <li>The poster : <a href="document/ACMMM_Demo_Poster.pdf">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Visual Computing Lab </h4>
+            </div>
+            <div class="col-sm-6 cv31">
+                <h4>Microsoft Research in Asia</h4>
+            </div>
+            <div class="col-sm-1 cv31">
+                <i>2016.09 - 2017.02</i>
+            </div>
+            <div class="col-sm-11 cv32">
+                <div class="cv33"> Advisor: Fang Wen</div>
+                <p>Research Intern</p>
+                <div class="row cv30">
+                    <div class="col-sm-6">
+                        <img src="image/cv15.JPG" alt=""> *2
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>Joint Face Detection and Alignment via Cascaded Compositional Learning</b>
+                        </h4>
+                        <ul>
+                            <li><i>Model: Sparse FRAME, a multi-layer probability distribution model captured the part deformation</i></li>
+                            <li><i>Jointed cascade face detection and alignment by advanced boosting algorithm</i></li>
+                            <li><i>Considered multi-domain to overcome unconstrained face data</i></li>
+                            <li><i>Trained multi domain on same random forest with both detection and alignment in parallel</i></li>
+                        </ul>
+                        <p>This work is based on "Joint cascade face detection and alignment" and "Unconstrained Face Alignment via Cascaded Compositional Learning". We aim to provide domain partition on the Joint cascade face
+                            detection and alignment method.</p>
+                        <b></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cv2">
+        <div class="container">
+            Publication
+        </div>
+    </div>
+    <div class="cv3 container">
+        <div class="row">
+            <div class="col-sm-2 cv31">
+                <i>2018.11</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>
+                    <b>Yifei Xu</b>, Tianyang Zhao, Chris Baker, Yibiao Zhao, Ying Nian Wu "
+                    <a href="https://arxiv.org/abs/1904.05453">Learning Trajectory Prediction with Continuous Inverse
+                        Optimal Control via Langevin sampling</a>"<i>Submitted to AAMAS 2019</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2018.11</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>
+                    Tianyang Zhao, <b>Yifei Xu</b>, Mathew Monfort, Wongun Choi, Chris Baker, Yibiao Zhao, Yizhou Wang, Ying Nian Wu "
+                    <a href="https://arxiv.org/abs/1904.04776">Convolutional Spatial Fusion for Multi-Agent Trajectory Prediction</a>"
+                    <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019.</i></p>
+            </div>
+            
+            <div class="col-sm-2 cv31">
+                <i>2017.06</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p><b>Bachelor's Degree Thesis</b>: Yifei Xu "<a href="http://sjcg.jwc.sjtu.edu.cn/">Generative Hierarchical Learning on Computer Vision</a>" SJTU Excellent Bachelor's Degree Thesis (Top 1%) 2017.</p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2017.03</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>Jianwen Xie, <b>Yifei Xu</b>, Erik Nijkamp, Ying Nian Wu, Song-Chun Zhu "<a href="http://www.stat.ucla.edu/~jxie/hsFRAME_file/doc/HS_FRAME.pdf">Generative Hierarchical Structure Learning of Sparse FRAME Models</a>" IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017.</p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.10</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>Zhengzhong Zhou, <b>Yifei Xu</b>, Jingjin Zhou and Liqing Zhang "<a href="document/clothing_retrieval_demo.pdf">Interactive Image Search for Clothing Recommendation.</a> " The 24th ACM international conference on Multimedia.
+                    ACM, 2016.</p>
+            </div>
+        </div>
+    </div>
+    <div class="cv2">
+        <div class="container">
+            Honors and Awards
+        </div>
+    </div>
+    <div class="cv3 container">
+        <div class="row">
+            <div class="col-sm-2 cv31">
+                <i>2014-2016</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>Academic Excellence Scholarship at SJTU Prize B, C, B <i>(Top 10%, 20%, 10% in University)</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.04</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>Interdisciplinary Contest In Modeling 2016 Meritorious</p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.07</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>UCLA CSST Scholarship and CSST Award <i>(2 in CSST Program CS Major) </i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.10</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>'ele' Scholarship <i>for outstanding CS students (6 in university each year)</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.12</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>'YuanKang' Scholarship <i>for outstanding research (5 in university each year)</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2017.06</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <p>SJTU Excellent Bachelor's Degree Thesis <i>(Top 1% in 3600 Undergraduates)</i></p>
+            </div>
+        </div>
+    </div>
+    <div class="cv2">
+        <div class="container">
+            Project Experience
+            <div class="cv33">
+                <button class="btn btn-primary complex" type="button" onclick="hide()">Hide</button>
+                <button class="btn btn-primary simple" type="button" onclick="show()">show more</button>
+            </div>
+        </div>
+    </div>
+    <div class="cv3 container simple">
+        <div class="row">
+            <div class="col-sm-2 cv31">
+                <i>AI</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <ul class="list-inline">
+                    <li>"FishTank" Game AI</li>
+                    <li>"Texas Hold'em" Game AI</li>
+                </ul>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>System</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <ul class="list-inline">
+                    <li>Compiler for simplified C</li>
+                    <li>Simulated Pipeline CPU</li>
+                    <li>C++ STL Container</li>
+                    <li>Virus for Linux</li>
+                    <li>SQL System</li>
+                </ul>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>Web Dev.</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <ul class="list-inline">
+                    <li>Bookex System</li>
+                    <li>ACM New Website</li>
+                    <li>POI System</li>
+                </ul>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>Machine Learning</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <ul class="list-inline">
+                    <li>Trajectory Compression</li>
+                    <li>Implicit Discourse Parsing</li>
+                    <li>ML Toolkit (Regression, Clustering, Boosting...)</li>
+                    <li>Clustering / Monte Carlo Algo.</li>
+                    <li>Generative Model (VAE, GAN, ...)</li>
+                    <li>Descriptive Model (EBM ...)</li>
+                    <li>EM Algo.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="cv3 container complex">
+        <div class="row">
+            <div class="col-sm-2 cv31">
+                <i>2013.12</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">AI</span> "FishTank" Game AI
+                <div class="col-sm-4 cv33"><span class="label label-info">C++</span></div>
+                <p><i>Project of "Programming"</i></p>
+            </div>
+
+            <div class="col-sm-2 cv31">
+                <i>2014.08</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">AI</span> "Texas Hold'em" Game AI
+                <div class="col-sm-4 cv33"><span class="label label-info">C++</span></div>
+                <p><i>Project of "Programming Practice"</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2014.06</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">System</span> <a href="https://github.com/fei960922/DSproject">C++ STL Container</a>
+                <div class="col-sm-4 cv33"><span class="label label-info">C++</span></div>
+                <p><i>Project of "Data Struct" which include AVL tree, Hashmap, Linklist, etc. </i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2015.04</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">System</span> Compiler for simplified C
+                <div class="col-sm-4 cv33"><span class="label label-info">Java</span></div>
+                <p><i>A compiler which transform C code into MIPS code.</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2015.06</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">System</span> <a href="https://github.com/fei960922/Pipeline_CPU">Simulated Pipeline CPU</a>
+                <div class="col-sm-4 cv33"><span class="label label-info">Verilog</span></div>
+                <p><i>Simulate the MIPS code’s running on Verilog simulator.</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2015.10</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">System</span> Virus for Linux
+                <div class="col-sm-4 cv33"><span class="label label-info">Linux C</span></div>
+                <p><i>A virus runs on Linux in order to have the super authority.</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.05</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">System</span> <a href="https://github.com/fei960922/Database2016">SQL System</a>
+                <div class="col-sm-4 cv33"><span class="label label-info">C++</span></div>
+                <p><i>A SQL System.</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2014.03</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">Web Dev.</span> <a href="http://bookex.org/">Bookex System</a> (Part)
+                <div class="col-sm-4 cv33"><span class="label label-info">Html</span> <span class="label label-info">PHP</span>
+                    <span class="label label-info">javascript</span></div>
+                <p><i>A recommended system for a secondhand book market</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2014.08</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">Web Dev.</span> <a href="http://fei22.cn/ACM_Website_2014/">ACM New Website</a>
+                <div class="col-sm-4 cv33"><span class="label label-info">Html</span> <span class="label label-info">PHP</span> <span class="label label-info">javascript</span></div>
+                <p><i>A new, Responsive website for ACM Class.</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.05</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">Web Dev.</span> <a href="http://georgia.eng.utah.edu:8080/~acmdbu01/">POI System</a>
+                <div class="col-sm-4 cv33"><span class="label label-info">Html</span> <span class="label label-info">JSP</span>
+                    <span class="label label-info">Javascript</span></div>
+                <p><i>A yelp-like website.</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2015.08</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">ML</span> Trajectory Compression
+                <div class="col-sm-4 cv33"><span class="label label-info">C++</span></div>
+                <p><i>Compress a trajectory with lossless and lossy method.</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2016.06</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">ML</span> Implicit Discourse Parsing
+                <div class="col-sm-4 cv33"><span class="label label-info">Python</span> <span class="label label-info">Matlab</span></div>
+                <p><i>The implementation of "Recognizing Implicit Discourse Relations in the Penn Discourse Treebank".</i></p>
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2018.12</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                <span class="label label-primary">ML</span> Machine learning Toolkit
+                <div class="col-sm-4 cv33"><span class="label label-info">Python</span> <span class="label label-info">R</span></div>
+                <p><i>Multiple machine learning algorithms including Regression, Clustering, Boostering, MCMC, VAE, GAN, EBM, EM ...</i></p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="cv2">
+        <div class="container">
+            Extracurricular Experience
+        </div>
+    </div>
+    <div class="cv3 container">
+        <div class="row">
+            <div class="col-sm-2 cv31">
+                <i>2013-2014</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                Member of Zhiyuan Pandeng (leadership) Project
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2014-2015</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                Minisiter of the college publicity center
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2014-2017</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                Publicity commissary and Vice monitor for ACM 2013 Class
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2015-2016</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                Teach Assistant for "Data Structure" (Lead TA)
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2018 Fall</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                Teach Assistant for "Statistical Programming"
+            </div>
+            <div class="col-sm-2 cv31">
+                <i>2019 Winter</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                Teach Assistant for "Methods of Machine Learning"
+            </div><div class="col-sm-2 cv31">
+                <i>2019 Spring</i>
+            </div>
+            <div class="col-sm-10 cv32">
+                Teach Assistant for "Introduction to Probability Theory"
+            </div>
+        </div>
+    </div>
+    <div class="reference complex">
+        <ul class="list-unstyled">
+            <ul><i>*1 : This picture is from Li, Xiaohui, et al. "Saliency detection via dense and sparse reconstruction."</i></ul>
+            <ul><i>*2 : This picture is from Chen, Dong, et al. "Joint cascade face detection and alignment."</i></ul>
+        </ul>
+    </div>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-col-1 column">
+                <ul>
+                    <li>Personal Blog of Jerry Xu</li>
+                    <li><a href="mailto:fei960922@ucla.edu">fei960922@ucla.edu</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-2 column">
+                <ul>
+                    <li>
+                        <a href="https://github.com/fei960922">
+                            <span class="icon github">
+                  <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                    c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                    c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                    c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                    C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                    c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                    c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                    c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                    c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                  </svg>
+                </span>
+                            <span class="username">fei960922</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/yifei-xu-ucla">
+                            <img src="image/linkedin.svg" width="16px" height="16px">
+                            <span class="username">Yifei Xu</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col-3 column">
+                <p class="text">Hello World! </p>
+            </div>
+
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
